@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.cart_main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 100px;
+    margin-bottom: 60px;
+}
+
+.cart_top{
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background-color: #F6FBFC;
+}
+
+.cart_top h1{
+    width: 100%;
+    text-align: center;
+    font-size: 65px;
+    color: #41c0c7;
+    line-height: 65px;
+}
+
+.cart_top h3{
+    font-size: 33px;
+    color: #333;
+    font-weight: 400;
+}
+
+.cart_top h3 span{
+    font-weight: bold;
+    font-size: 38px;
+    color: black;
+}
+
+.cart_div{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 0px 85px;
+}
+
+.noCart_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.noCart_div h1{
+    width: 100%;
+    text-align: center;
+    color: #666;
+    font-size: 45px;
+    letter-spacing: 1px;
+}
+
+
+@media(max-width:450px){
+    .cart_main{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 100px;
+        margin-top: 80px;
+        margin-bottom: 60px;
+    }
+    
+    .cart_top{
+        width: 100%;
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+        background-color: #F6FBFC;
+        padding: 15px;
+    }
+    
+    .cart_top h1{
+        width: 100%;
+        text-align: center;
+        font-size: 40px;
+        color: #41c0c7;
+        line-height: 65px;
+    }
+    
+    .cart_top h3{
+        width: 100%;
+        text-align: center;
+        font-size: 25px;
+        color: #333;
+        font-weight: 400;
+    }
+    
+    .cart_top h3 span{
+        font-weight: bold;
+        font-size: 27px;
+        color: black;
+    }
+    
+    .cart_div{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 30px;
+        padding: 0px 15px;
+    }
+
+    .noCart_div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .noCart_div h1{
+        width: 100%;
+        text-align: center;
+        color: #666;
+        font-size: 30px;
+        letter-spacing: 1px;
+    }
+    
+}

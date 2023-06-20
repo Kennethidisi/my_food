@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.company_main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 100px;
+    margin-bottom: 300px;
+}
+
+.company_top{
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F6FBFC;
+}
+
+.company_top h1{
+    width: 100%;
+    text-align: center;
+    font-size: 65px;
+    color: #222;
+    line-height: 70px;
+}
+
+.company_top h1 span{
+    color: #41c0c7;
+}
+
+.c_bottom{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+}
+
+.c_bottom_left{
+    width: 49%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 55px;
+    padding-left: 75px;
+}
+
+.c_bottom_left h1{
+    width: 100%;
+    text-align: left;
+    font-size: 65px;
+    letter-spacing: .5px;
+    line-height: 70px;
+    color: #41c0c7;
+}
+
+.c_bottom_left p{
+    width: 100%;
+    text-align: left;
+    font-size: 17.5px;
+    color: #666;
+    letter-spacing: .5px;
+    line-height: 25px;
+}
+
+.c_bottom_left button{
+    padding: 15px 30px;
+    outline: none;
+    background-color: #41c0c7;
+    border: 1px solid #41c0c7;
+    font-size: 20px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transition: background-color .3s ease;
+}
+
+.c_bottom_left button:hover{
+    background-color: #35a0a5;
+}
+
+.c_img{
+    width: 49%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.c_img img{
+    width: 90%;
+    object-fit: contain;
+}  
+
+
+
+@media(max-width:450px){
+    .company_main{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+        margin-top: 80px;
+        margin-bottom: 200px;
+    }
+    
+    .company_top{
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #F6FBFC;
+        padding: 24px;
+    }
+    
+    .company_top h1{
+        width: 100%;
+        text-align: center;
+        font-size: 40px;
+        color: #222;
+        line-height: 60px;
+    }
+    
+    .company_top h1 span{
+        color: #41c0c7;
+    }
+    
+    .c_bottom{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 150px;
+    }
+    
+    .c_bottom_left{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 45px;
+        padding-left: 0px;
+        padding: 15px;
+    }
+    
+    .c_bottom_left h1{
+        width: 100%;
+        text-align: center;
+        font-size: 45px;
+        letter-spacing: .5px;
+        line-height: 60px;
+        color: #41c0c7;
+    }
+    
+    .c_bottom_left p{
+        width: 100%;
+        text-align: center;
+        font-size: 17px;
+        color: #666;
+        letter-spacing: .5px;
+        line-height: 25px;
+    }
+    
+    .c_bottom_left button{
+        padding: 12px 20px;
+        outline: none;
+        background-color: #41c0c7;
+        border: 1px solid #41c0c7;
+        font-size: 20px;
+        border-radius: 10px;
+        color: white;
+        cursor: pointer;
+        transition: background-color .3s ease;
+    }
+    
+    .c_bottom_left button:hover{
+        background-color: #35a0a5;
+    }
+    
+    .c_img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .c_img img{
+        width: 90%;
+        object-fit: contain;
+    }  
+}
